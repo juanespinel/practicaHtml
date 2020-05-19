@@ -41,6 +41,6 @@ ul li {
 
 body {
     background-image: url(../img/foto.jpg);
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
 }

@@ -30,8 +30,9 @@
             <li>Incorporar 3 huevos</li>
         </ol>
         //Etiquetas de rutas absolutas
-        <a href="https://google.com.ar">Haga click aqui y vaua a google</a>
-        <img height="auto" width="200px"src="https://www.danezon.com/wp-content/uploads/2020/02/Back-To-The-Future-Marty-Mcfly-Vest.jpg" alt="foto de marty macfly">
+        <a href="https://google.com.ar">Haga click aqui y vaua a google</a> <br>
+
+        <img height="auto" width="200px"src="https://images.clarin.com/2020/04/23/the-rolling-stones-publicaron-un___W_pCakARc_1256x620__1.jpg" alt="foto de los stones"> <br>
 
         //Etiquetas de rutas relativas
         <a href="nosotros.html">Acerca de nosotros</a>
@@ -50,8 +51,29 @@
         </ul>
 
         <iframe width="500px" height="450px" src="https://digitalhouse.com" frameborder="0"></iframe>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/pT68FS3YbQ4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/f8RsYQp_hnc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        
+
+        <form action="inicio.html" method="get">
+            <p><label for="email">Email</label></p>
+            <p><input type="email" id="email" name="email"></p>
+
+            <p><label for="pass">Contraseña</label></p>
+            <p><input type="password" id="pass" name="pass"></p>
+            
+            <p><input type="submit" value="Enviar"></p>
+
+            <p><label for="">¿Fuiste al cine esta año?</label></p>
+            <p><input type="radio" name="cine" value="S" checked> Si</p>
+            <p><input type="radio" name="cine" value="N"> No</p>
+
+            <p><label for="">Generos Preferidos</label></p>
+            <input type="checkbox" name="genero" value="terror"> Terror <br>
+            <input type="checkbox" name="genero" value="comedia"> Comedia <br>
+            <input type="checkbox" name="genero" value="accion"> Accion <br>
+            
+        </form>
 
     </body>
 </html>
